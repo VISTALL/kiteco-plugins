@@ -1,0 +1,28 @@
+<idea-plugin version="2">
+  <id>com.kite.intellij</id>
+  <name>Kite</name>
+  <version>1.0</version>
+  <vendor email="support@kite.com" url="http://www.kite.com">Kite</vendor>
+
+  <description><![CDATA[
+      Connects Kite to your Consulo IDE.
+    ]]></description>
+
+  <change-notes><![CDATA[
+
+    ]]>
+  </change-notes>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+  </actions>
+
+  <project-components>
+    <component>
+      <implementation-class>KiteProjectComponent</implementation-class>
+    </component>
+  </project-components>
+</idea-plugin>
